@@ -1,4 +1,4 @@
-import { colors, zIndex, flex, typo, text } from "./foundations";
+import { colors, zIndex, flex, typo, text, a11y } from "./foundations";
 
 export const theme = {
   zIndex,
@@ -6,4 +6,5 @@ export const theme = {
   colors,
   typo,
   text,
+  a11y,
 };
