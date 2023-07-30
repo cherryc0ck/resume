@@ -54,8 +54,8 @@ export default function Work() {
   return (
     <S.Section>
       <Title text="Work Experience" />
-      {DATA.map((data) => (
-        <WorkArticle company={data.company} project={data.project} />
+      {DATA.map((data, idx) => (
+        <WorkArticle key={idx} company={data.company} project={data.project} />
       ))}
     </S.Section>
   );
