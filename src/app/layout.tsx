@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import { PropsWithChildren } from "react";
 
 import { AppProvider, StyledRegistry } from "@/lib/providers";
+import { ProgressBar } from "@/components/common";
 
 const pretendard = localFont({
   src: [

@@ -12,14 +12,11 @@ const DATA = [
     },
     project: {
       name: "크라운드 - 크리에이터를 위한 서비스",
-      desc: "",
+      desc: "요즘 유튜브, 틱톡, 인스타그램 등 모바일 기반 동영상 플랫폼 등이 빠르게 성장하며 1인 미디어 산업이 유행하고 있음에 따라 타겟층을 크리에이터와 예비 크리에이터로 선정,  자신만의 독특한 아이디어와 창의력으로 매력적인 콘텐츠를 제공, 혹은 커피챗을 통해 간단한 대화를 나눌 수 있는 플랫폼을 제작하였습니다",
       url: "https://cround-client.vercel.app/",
       details: [
-        // "프론트엔드 인터페이스 구현",
-        // "Chart.js을 사용한 리포트, 대쉬보드 구현",
-        // "BigQuery와 연동하여 리포트 관련 API 개발",
-        // "리포트, 대쉬보드에 대한 요약 코멘트 기능 개발",
-        // "Google Analytics 4 설정 및 추적코드 세팅",
+        "커스텀 훅 패턴을 사용하여 UI와 로직 분리, 여러 컴포넌트에서 동일한 로직을 재사용하기 용이하게 개발",
+        "디자인 시스템을 적용하여 컴포넌트 개발",
       ],
       techs: [
         "React",
@@ -37,8 +34,8 @@ export default function SideProject() {
   return (
     <S.Section>
       <Title text="Side Project" />
-      {DATA.map((data) => (
-        <WorkArticle company={data.company} project={data.project} />
+      {DATA.map((data, idx) => (
+        <WorkArticle key={idx} company={data.company} project={data.project} />
       ))}
     </S.Section>
   );
