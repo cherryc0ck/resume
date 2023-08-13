@@ -54,6 +54,7 @@ export const DetailList = styled.ul`
 
     li {
       position: relative;
+      margin-bottom: 8px;
       padding-left: 6px;
       ${theme.typo.body.md};
     }
