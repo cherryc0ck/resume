@@ -57,7 +57,7 @@ const pretendard = localFont({
 // 작성 필요
 export const metadata = {
   title: "이력서 / 홍언택",
-  description: "프론트엔드 개발자 홍언택 이력서",
+  description: "프론트엔드 개발자 홍언택",
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {
