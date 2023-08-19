@@ -23,5 +23,12 @@ export const Wrapper = styled.div`
     time {
       ${theme.typo.body.sm};
     }
+    ul {
+      margin: 12px 0;
+    }
+    ul li {
+      margin: 6px 0;
+      ${theme.typo.body.sm};
+    }
   `};
 `;
