@@ -18,8 +18,8 @@ export default function EduArticle({ data }: EduarticleProps) {
         <p>{desc}</p>
         <time>{date}</time>
         <ul>
-          {detail.map((list) => (
-            <li>{list}</li>
+          {detail.map((list, i) => (
+            <li key={i}>{list}</li>
           ))}
         </ul>
       </S.Wrapper>
