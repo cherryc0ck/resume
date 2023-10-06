@@ -9,7 +9,7 @@ const DATA = [
       url: "https://github.com/cround-team",
       position: "Web Fronted Developer",
       startDate: "2023.04",
-      endDate: "2023.07",
+      endDate: "2023.08",
     },
     project: {
       name: "크라운드 - 크리에이터를 위한 서비스",
