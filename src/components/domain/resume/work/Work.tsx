@@ -33,7 +33,6 @@ const DATA = [
       url: "https://analytics.growthfit.kr/",
       details: [
         "Google Analytics 4 설정 및 추적코드 세팅",
-        "프론트엔드 인터페이스 구현",
         "데이터 시각화를 위한 대시보드, 차트 기능 구현",
         "BigQuery와 연동하여 리포트 관련 API 구현",
         "리포트, 대시보드에 대한 요약 코멘트 기능 개발",
