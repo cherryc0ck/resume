@@ -59,14 +59,7 @@ const DATA = [
           "SSE를 이용한 실시간 알림 구현",
           "WebSocket으로 실시간 전달되는 데이터를 Redux로 관리",
         ],
-        techs: [
-          "React",
-          "Redux",
-          "Chart.js",
-          "Node.js",
-          "Styled-Components",
-          "Git",
-        ],
+        techs: ["React", "Redux", "Styled-Components", "Git"],
       },
       {
         name: "네이버 광고 자동입찰 및 입찰 최적화",
