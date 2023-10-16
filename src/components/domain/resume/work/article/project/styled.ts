@@ -18,6 +18,7 @@ export const Wrapper = styled.div`
         font-weight: 400;
         content: "↗️";
       }
+
       :hover {
         text-decoration: underline;
       }
@@ -34,6 +35,16 @@ export const Wrapper = styled.div`
         margin-bottom: 12px;
       }
     }
+  `};
+`;
+
+export const NotLink = styled.span`
+  ${({ theme }) => css``};
+`;
+
+export const Tech = styled.p`
+  ${({ theme }) => css`
+    padding-bottom: 60px;
   `};
 `;
 

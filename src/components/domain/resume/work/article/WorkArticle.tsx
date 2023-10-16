@@ -5,7 +5,7 @@ import * as S from "./styled";
 
 interface WorkArticleProps {
   company: Company;
-  project: Project;
+  project: Project[];
 }
 
 export default function WorkArticle({ company, project }: WorkArticleProps) {
