@@ -34,7 +34,6 @@ const DATA = [
         url: "https://analytics.growthfit.kr/",
         details: [
           "Google Analytics 4 설정 및 추적코드 세팅",
-          "WebSocket으로 실시간 전달되는 데이터를 Redux로 관리",
           "데이터 시각화를 위한 대시보드, 차트 기능 구현",
           "BigQuery와 연동하여 리포트 관련 API 구현",
           "리포트, 대시보드에 대한 요약 코멘트 기능 개발",
