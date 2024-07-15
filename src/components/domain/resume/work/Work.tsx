@@ -21,6 +21,15 @@ export interface Project {
 const DATA = [
   {
     company: {
+      name: "알트소프트",
+      url: "",
+      position: "Web Front-end Developer",
+      stateDate: "2023.10.30",
+      endDate: "재직중",
+    },
+  },
+  {
+    company: {
       name: "그로스핏",
       url: "https://growthfit.kr/",
       position: "Web Fronted Developer",
